@@ -145,10 +145,16 @@ footer div h4 {
     color:#fff;
     margin: 0px 16px 16px 16px;
 }
-/* @media (min-width: 768px) {
-    .boxes {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }   
-} */
+@media (min-width: 576px) {
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    "e";
+    min-height: 100vh;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+}
