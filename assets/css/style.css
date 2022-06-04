@@ -139,12 +139,12 @@ footer {
     justify-content: space-around;
     align-items: center;
     color: #ffc300;
+    font-size: 23px;
 }
 footer div h4 {
     color:#fff;
     margin: 0px 16px 16px 16px;
 }
-
 /* @media (min-width: 768px) {
     .boxes {
         display: flex;
