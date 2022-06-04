@@ -20,7 +20,6 @@ menu {
     padding: 0px;
     margin: 0px; 
 }
-
 menu .tittle {
     display: flex;
     flex-direction: row;
@@ -56,7 +55,7 @@ section {
 }
 section p{
     margin:10px;
-    font-weight: 900;
+    font-weight: bold;
 }
 section select {
     margin:10px;
@@ -74,7 +73,6 @@ main .boxes {
     align-items: center;
     row-gap: 20px;
 }
-
 main .cards {
     display: flex;
     flex-direction: column;
@@ -121,13 +119,11 @@ button:hover {
     padding: 8px 13px;
     text-decoration: none;
   }
-  
   .pagination a.active {
     background-color: #581845;
     color: white;
-  }
-  
-  .pagination a:hover:not(.active) {background-color: #ddd;}
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
 /* footer */
 footer {
     grid-area: e;
