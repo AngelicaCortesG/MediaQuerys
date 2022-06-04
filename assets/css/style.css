@@ -16,13 +16,16 @@ body {
 }
 menu {
     grid-area: a;
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     background-color: #581845;
     padding: 0px;
     margin: 0px; 
+}
+
+menu .tittle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 menu i {
     font-size: 20px;
@@ -58,6 +61,8 @@ section select {
 }
 main {
     grid-area: c;
+    padding: 20px;
+    background-color: #ff5733
 }
 /* Cards */
 main .boxes {
@@ -66,7 +71,7 @@ main .boxes {
     justify-content: space-around;
     border-bottom: solid 1px #bec1bb;
     align-items: center;
-    background-color: #ff5733;}
+   ;}
 
 main .cards {
     display: flex;
