@@ -79,10 +79,10 @@ main .cards {
     width: 100%;
 }
 .cards img {
-    max-width: 339px;
-    height: 300px;
-    border: solid 1px #bec1bb;}
-
+    max-width: 340%;
+    height: 300%;
+    /* border: solid 1px #bec1bb; */
+}
 .cards h3 {
     font-weight: 900;
     font-size: x-large;
@@ -102,6 +102,10 @@ button {
     border: solid 1px #bec1bb;
     padding: 10px;
 }
+
+button:hover {
+    background-color: #cdc3e6;
+  }
 /* paginación */
 .pagination {
     display: flex;
@@ -122,18 +126,24 @@ button {
   }
   
   .pagination a:hover:not(.active) {background-color: #ddd;}
-
 /* footer */
 footer {
     grid-area: e;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    background-color: #900c3f;
 }
-
 .iconfooter {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+    color: #ffc300;
+}
+footer div h4 {
+    color:#fff;
+    margin: 0px 16px 16px 16px;
 }
 
 /* @media (min-width: 768px) {
