@@ -37,6 +37,7 @@ menu .title {
 }
 menu h1 {
     margin:10px;
+    margin-left: 20px;
     text-align: left;
     
 }
@@ -50,10 +51,12 @@ section {
     padding: 10px;
 }
 section p{
-    margin:10px
+    margin:10px;
+    font-weight: 900;
 }
 section select {
-    margin:10px
+    margin:10px;
+    margin-top: 0px;
 }
 main {
     grid-area: c;
