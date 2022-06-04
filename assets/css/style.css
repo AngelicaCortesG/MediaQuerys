@@ -22,22 +22,20 @@ menu {
     margin: 0px; 
 }
 menu i {
-    width: 33px;
-    height: 33px;
     font-size: 20px;
     text-align: center;
     color: #ffc300;
-    padding: 10px 20px 10px 20px; 
+    padding: 10px 10px 10px 10px; 
 }
 menu .title {
-    width: 30px;
-    height: 30px;
     text-align: center;
 }
 menu h1 {
     margin:10px;
+    text-align: left;
     
 }
+/* Sección para escoger */
 section {
     grid-area: b;
     display: flex;
@@ -47,34 +45,33 @@ section {
     padding: 10px;
 }
 section p{
-    margin:16px
+    margin:10px
 }
 section select {
-    margin:16px
+    margin:10px
 }
 main {
     grid-area: c;
 }
-
+/* Cards */
 .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: solid 1px #bec1bb;
-    height: 100%;
+    /* height: 100%; */
     align-items: center;}
 
 main .cards {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100%;
+    width: 100%;
 }
-.footer {
-    grid-area: e;
-}
-
 .cards img {
-    max-width: 100%;
+    max-width: 330px;
+    height: 300px;
     border: solid 1px #bec1bb;}
 
 button {
@@ -105,8 +102,9 @@ button {
   
   .pagination a:hover:not(.active) {background-color: #ddd;}
 
-/* footes */
+/* footer */
 footer {
+    grid-area: e;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
