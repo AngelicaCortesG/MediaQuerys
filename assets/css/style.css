@@ -70,8 +70,7 @@ main .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
-    row-gap: 20px;
+    align-items: center
 }
 main .cards {
     display: flex;
@@ -183,6 +182,7 @@ menu p {
 main .boxes {
     align-content: flex-end;
     padding: 20px;
+    row-gap: 20px;
 }
 .cards {
     height: 30em;
