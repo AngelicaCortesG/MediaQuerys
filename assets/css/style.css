@@ -1,0 +1,126 @@
+/* grid templates areas */
+.grid {
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "b"
+    "c"
+    "d"
+    "e";
+    min-height: 100vh;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+menu {
+    grid-area: a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 1px #bec1bb;
+    background-color: #581845;
+    padding: 0px;
+    margin: 0px; 
+}
+menu i {
+    width: 33px;
+    height: 33px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffc300;
+    padding: 10px 20px 10px 20px; 
+}
+menu .title {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+menu h1 {
+    margin:10px;
+    
+}
+section {
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffc300;
+    padding: 10px;
+}
+section p{
+    margin:16px
+}
+section select {
+    margin:16px
+}
+main {
+    grid-area: c;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: solid 1px #bec1bb;
+    height: 100%;
+    align-items: center;}
+
+main .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer {
+    grid-area: e;
+}
+
+.cards img {
+    max-width: 100%;
+    border: solid 1px #bec1bb;}
+
+button {
+    background-color: #900c3f;
+    color: black;
+    width: 100%;
+    border: solid 1px #ffc300;
+    padding: 10px;
+}
+
+/* paginación */
+.pagination {
+    display: inline-block;
+    grid-area: d;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #581845;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+/* footes */
+footer {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.iconfooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* @media (min-width: 768px) {
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }   
+} */
