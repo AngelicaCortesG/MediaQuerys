@@ -144,10 +144,11 @@ footer {
     align-items: center;
     color: #ffc300;
     font-size: 23px;
+    margin: 20px 20px 5px 16px
 }
 footer div h4 {
     color:#fff;
-    margin: 0px 16px 16px 16px;
+    margin: 0px 16px 0px 16px;
 }
 /* Agrega media small */
 @media (min-width: 576px) {
