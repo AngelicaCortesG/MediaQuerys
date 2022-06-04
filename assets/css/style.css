@@ -153,37 +153,40 @@ menu {
     align-items:flex-start;
 }
 menu i {
-    padding: 30px 10px 10px 10px; 
+    padding: 50px 10px 10px 10px; 
+    font-size: 50px;
 }
-/* main */
+menu h1 {
+    font-size: 30px;
+}
 main .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    border-bottom: solid 1px #bec1bb;
-    align-items: center;
-    background-color: #ff5733;}
-
-main .cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-content: flex-end;
+}
+.cards {
+    height: 30em;
+    width: 20em; 
+    /* width: 20%; */
 }
 .cards img {
-    max-width: 340%;
-    height: 300%;
+    max-width: 100%;
+    height: 70%;
     /* border: solid 1px #bec1bb; */
 }
-.cards h3 {
-    font-weight: 900;
-    font-size: x-large;
-    text-align: center;
+.item1{
+    flex-grow: 4;
+}
+.item2 {
+    flex-grow: 1;
     margin: 10px;
 }
-.cards h4 {
-    color: #fff;
-    font-weight: 900;
-    text-align: center;
-    margin: 0px 10px 10px 10px;
+.item3 {
+    flex-grow: 1;
+    margin: 10px;
+}
+.item4 {
+    flex-grow: 2;
+}
+.pagination {
+    background-color: #ffc300;
 }
 }
