@@ -102,9 +102,8 @@ button {
     border: solid 1px #bec1bb;
     padding: 10px;
 }
-
 button:hover {
-    background-color: #cdc3e6;
+    background-color: #581845;
   }
 /* paginación */
 .pagination {
